@@ -129,14 +129,14 @@
 		     <version>${org.springframework-version}</version>
 		</dependency>
 		
-		<!-- CGLib -->
-	<!-- 	<dependency>
+		<!-- CGLib 스프링 시큐리티 어노테이션 사용을 위해 -->
+	 	<dependency>
 		     <groupId>cglib</groupId>
 		     <artifactId>cglib</artifactId>
 		     <version>3.1</version>
 		     <type>jar</type>
 		     <scope>compile</scope>
-		</dependency> -->
+		</dependency>
 		
 		
 	</dependencies>

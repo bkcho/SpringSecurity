@@ -10,18 +10,19 @@
      http://www.springframework.org/schema/security/spring-security.xsd
      ">
 
-     <http auto-config="true">
+<http auto-config="true"/>
+<!--      <http auto-config="true">
      	<intercept-url pattern="/" access="ROLE_USER" />		
-		<intercept-url pattern="/admin/**" access="ROLE_ADMIN" />
+		<intercept-url pattern="/admin/**" access="ROLE_ADMIN" /> #2-1
      </http>
 
      <authentication-manager>
           <authentication-provider>
                <user-service>
                     <user name="test" password="123" authorities="ROLE_USER"/>
-                    <user name="admin" password="123" authorities="ROLE_ADMIN"/>
+                    <user name="admin" password="123" authorities="ROLE_ADMIN"/> #2-2
                </user-service>
           </authentication-provider>
-     </authentication-manager>
+     </authentication-manager> -->
 
 </beans:beans>
